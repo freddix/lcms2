@@ -1,11 +1,11 @@
 Summary:	Little CMS - a library to transform between colour profiles
 Name:		lcms2
-Version:	2.4
+Version:	2.5
 Release:	1
 License:	MIT
 Group:		Libraries
 Source0:	http://downloads.sourceforge.net/lcms/%{name}-%{version}.tar.gz
-# Source0-md5:	861ef15fa0bc018f9ddc932c4ad8b6dd
+# Source0-md5:	396d106600251441ff195fcaa277d10b
 URL:		http://www.littlecms.com/
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -68,7 +68,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc ChangeLog AUTHORS COPYING NEWS README.1ST
+%doc ChangeLog AUTHORS COPYING README.1ST
 %attr(755,root,root) %ghost %{_libdir}/liblcms2.so.?
 %attr(755,root,root) %{_libdir}/liblcms2.so.*.*.*
 
